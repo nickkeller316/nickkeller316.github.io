@@ -1,0 +1,84 @@
+html,
+body,
+main {
+  height: 100%;
+}
+/* Background image from google */
+body {
+  background-image: url("/Users/nickscheurich/Desktop/nickkeller316.github.io/Homework-2_NK/pictures/background.jpg");
+  overflow-x: hidden;
+  background-size: cover;
+}
+/* Font adjustments for all paragraphs */
+p {
+  text-align: justify;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+/* Font adjustments for 'About me' in index.html */
+h1 {
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+/* Nav bar */
+nav {
+  margin-bottom: 10px;
+}
+
+a {
+  font-family: serif;
+}
+/* Card adjustments in all links, chose red */
+.card {
+  margin: 50px;
+  padding: 10px;
+  background-color: #ad1c1c;
+}
+
+.card-body img {
+  margin-right: 20px;
+}
+
+form label {
+  font-weight: bold;
+  font-size: 20px;
+}
+/* Editing footer color and allignment */
+footer {
+  text-align: center;
+  background-color: rgb(199, 170, 135);
+  margin-top: 20px;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 720px) {
+  .card {
+    margin: 5px;
+    min-height: 400px;
+    padding: 10px 0;
+  }
+
+  .card-body {
+    padding: 1.25rem 0;
+  }
+
+  .carousel {
+    min-width: 300px;
+    min-height: 250px;
+  }
+
+  h1 {
+    padding: 0 10px;
+  }
+
+  img,
+  p,
+  form,
+  .carousel {
+    padding: 0 5px;
+  }
+}
+/* styling the nav bar (called in class) */
+.bg-sup {
+  background-color: rgb(199, 170, 135);
+}
